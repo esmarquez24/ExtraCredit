@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8819956772470950052}
   - component: {fileID: 4257519603965939766}
   - component: {fileID: 1023433056083080251}
+  - component: {fileID: -8795359810316187895}
   m_Layer: 10
   m_Name: Basket
   m_TagString: Untagged
@@ -139,3 +140,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-8795359810316187895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5600567750947221509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb1b0c12529c6ef4c978227f79fac037, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Basket
