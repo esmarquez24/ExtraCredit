@@ -395,13 +395,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: AppleTree
       objectReference: {fileID: 0}
+    - target: {fileID: 1068494133702756532, guid: dd17bfa56c98c3542922fe897fa379d7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1068494133702756532, guid: dd17bfa56c98c3542922fe897fa379d7, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535238124094101607, guid: dd17bfa56c98c3542922fe897fa379d7, type: 3}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 1265836035941048234, guid: 98e48810917e5014bbe268a7d990eace, type: 3}
+    - target: {fileID: 1535238124094101607, guid: dd17bfa56c98c3542922fe897fa379d7, type: 3}
+      propertyPath: changeDirChance
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 1751599323222703018, guid: dd17bfa56c98c3542922fe897fa379d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1751599323222703018, guid: dd17bfa56c98c3542922fe897fa379d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1751599323222703018, guid: dd17bfa56c98c3542922fe897fa379d7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -434,6 +450,22 @@ PrefabInstance:
     - target: {fileID: 1751599323222703018, guid: dd17bfa56c98c3542922fe897fa379d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266223362085742030, guid: dd17bfa56c98c3542922fe897fa379d7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329685666545472649, guid: dd17bfa56c98c3542922fe897fa379d7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580579223851980201, guid: dd17bfa56c98c3542922fe897fa379d7, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580579223851980201, guid: dd17bfa56c98c3542922fe897fa379d7, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
