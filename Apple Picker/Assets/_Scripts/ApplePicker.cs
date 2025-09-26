@@ -13,7 +13,6 @@ public class ApplePicker : MonoBehaviour
     public float basketSpacingY = 2f;
     public List<GameObject> basketList;
     
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         basketList = new List<GameObject>();
@@ -49,10 +48,10 @@ public class ApplePicker : MonoBehaviour
         Destroy(basketGO);
 
 
-        //if there are no Baskets left, restart the game
+        //if there are no Baskets left, load Game Over scene
         if (basketList.Count == 0)
         {
-            SceneManager.LoadScene("Scene_0");
+            SceneManager.LoadScene("GameOver");
         }
 
     }
