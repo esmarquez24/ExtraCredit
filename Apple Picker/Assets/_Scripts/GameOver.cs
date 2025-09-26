@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class GameOver : MonoBehaviour
 {
-    public void OnTryAgainButton()
+    public void OnPlayAgainButton()
     {
         SceneManager.LoadScene("Scene_0");
     }
