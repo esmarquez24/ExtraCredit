@@ -10,7 +10,6 @@ public class ScoreCounter : MonoBehaviour
 
     private Text uiText;
     
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         uiText = GetComponent<Text>();

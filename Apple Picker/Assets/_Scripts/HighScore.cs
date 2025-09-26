@@ -43,7 +43,7 @@ public class HighScore : MonoBehaviour
 
     static public void TRY_SET_HIGH_SCORE(int scoreToTry)
     {
-        if (scoreToTry <= _SCORE) return;        //if scoreToTry is is not higher, bail
+        if (scoreToTry <= SCORE) return;        //if scoreToTry is is not higher, bail
         SCORE = scoreToTry;
     }
 
