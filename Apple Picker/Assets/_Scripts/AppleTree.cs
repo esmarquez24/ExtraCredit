@@ -8,6 +8,8 @@ public class AppleTree : MonoBehaviour
     //prefab for instantiating apples
     public GameObject applePrefab;
 
+    public GameObject goldenApplePrefab;
+
     //speed at which the AppleTree moves
     public float speed = 1f;
 

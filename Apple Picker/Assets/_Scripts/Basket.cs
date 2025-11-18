@@ -49,5 +49,14 @@ public class Basket : MonoBehaviour
 
             HighScore.TRY_SET_HIGH_SCORE( scoreCounter.score );
         }
+
+        else if (collidedWith.CompareTag("GoldenApple"))
+        {
+            Destroy( collidedWith);
+
+            scoreCounter.score += 200;
+
+            HighScore.TRY_SET_HIGH_SCORE(scoreCounter.score);
+        }
     }
 }

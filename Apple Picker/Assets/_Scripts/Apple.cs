@@ -6,11 +6,8 @@ public class Apple : MonoBehaviour
 {
     public static float     bottomY = -20f;
 
-    /*public int points 
-    {
-        "Apple" = 100
-        "GoldenApple" = 200
-    }*/
+    public int apple = 100;
+    public int goldenApple = 200;
     
     // Update is called once per frame
     void Update()

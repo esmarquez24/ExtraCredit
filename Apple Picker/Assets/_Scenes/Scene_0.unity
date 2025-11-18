@@ -791,6 +791,10 @@ PrefabInstance:
       propertyPath: changeDirChance
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1535238124094101607, guid: dd17bfa56c98c3542922fe897fa379d7, type: 3}
+      propertyPath: goldenApplePrefab
+      value: 
+      objectReference: {fileID: 1972502377809525971, guid: 125dc56beec638e4788f8b37a4acf3a8, type: 3}
     - target: {fileID: 1751599323222703018, guid: dd17bfa56c98c3542922fe897fa379d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
